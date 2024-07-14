@@ -32,6 +32,11 @@ export default defineType({
       rows: 6,
       validation: (Rule) => Rule.required()
   }),
+  defineField({
+    name: 'order',
+    title: 'Display Order',
+    type: 'number',
+  }),
     defineField({
       name: 'skillsUsed',
       title: 'Skills Used',
