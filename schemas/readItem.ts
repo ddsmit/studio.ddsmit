@@ -24,7 +24,7 @@ export default defineType({
     },
   }),
   defineField({
-    name: 'recomend',
+    name: 'recommend',
     title: "Would Recommend?",
     type: 'boolean',
   }),
@@ -47,3 +47,4 @@ export default defineType({
     },
   },
 })
+
