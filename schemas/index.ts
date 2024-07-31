@@ -12,4 +12,5 @@ import readItem from './readItem'
 import stickyNote from './stickyNote'
 import board from './board'
 
+
 export const schemaTypes = [social, accomplishment, skill, blockContent, blockdocument, company, role, tags, journalEnty, readItem, stickyNote,board]

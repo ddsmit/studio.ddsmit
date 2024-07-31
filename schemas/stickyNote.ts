@@ -20,9 +20,16 @@ export default defineType({
         source: 'name',
         slugify: input => input
           .toLowerCase()
+          .trimEnd()
+          .trimStart()
           .replace(/\s+/g, '-')
           .slice(0, 200)
       }
+    }),
+    defineField({
+      name: 'Link',
+      title: 'Link',
+      type: 'url',
     }),
   defineField({
     name: 'information',

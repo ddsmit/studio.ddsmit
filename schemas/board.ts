@@ -37,10 +37,7 @@ export default defineType({
       type: 'array',
       of: [
         {
-          type: 'reference',
-          to: [
-            {type:'stickyNote'},
-          ]
+          type: 'stickyNote'
         },
     ]
     }),
